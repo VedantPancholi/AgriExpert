@@ -2,6 +2,7 @@
 
 # Farmer Support ChatBot
 Farmers often struggle to get timely and accurate advice on crop management, pest control, and other agricultural practices. The existing solutions might not always be tailored to their specific needs or may be difficult to access, leading to suboptimal farming decisions.
+
 ![image](https://github.com/user-attachments/assets/bfdc2004-b2b5-4784-8507-c84b0a26033f)
 
 
