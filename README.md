@@ -1,7 +1,8 @@
-
 ## AgriExpert
-
 **AgriExpert** is an innovative chatbot powered by advanced AI, designed to provide farmers and plant enthusiasts with instant access to expert agricultural knowledge. Leveraging cutting-edge natural language processing (NLP) and machine learning, AgriExpert offers tailored advice and solutions based on specific crop needs and user queries.
+
+## Problem Statement:
+In the modern agricultural landscape, farmers and plant enthusiasts face numerous challenges due to the lack of accessible and reliable information about various crops. The complexity of plant cultivation, coupled with the diversity of crop varieties and regional farming practices, necessitates a comprehensive and adaptable information system.
 
 ### Key Features
 
@@ -17,6 +18,10 @@ AgriExpert represents a significant advancement in the digital transformation of
 
 
 ![image](https://github.com/user-attachments/assets/bfdc2004-b2b5-4784-8507-c84b0a26033f)
+
+
+## Workflow
+![image](https://github.com/user-attachments/assets/09e8c4ab-b3a7-4f10-b93b-9f9bf6837d3d)
 
 
 ## Tech Stack
@@ -64,6 +69,25 @@ You can install the required Python packages using the following commands:
 pip install flask flask-socketio speechrecognition googletrans==4.0.0-rc1
 ```
 
+ `pip install` commands:
+
+```bash
+pip install langchain
+pip install langchain_community
+pip install pinecone-client
+pip install huggingface_hub
+pip install python-dotenv
+pip install sentence-transformers
+pip install faiss-cpu
+pip install langchain_huggingface
+pip install torch
+pip install googlesearch-python
+pip install beautifulsoup4
+pip install google-generative
+```
+
+
+
 For the React frontend, navigate to the `frontend` directory and run:
 
 ```bash
@@ -75,13 +99,13 @@ npm install
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/Language-Translation-App.git
+git clone https://github.com/vedantpancholi/agriexpert.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd Language-Translation-App
+cd AgriExpert
 ```
 
 3. Run the Flask backend:
